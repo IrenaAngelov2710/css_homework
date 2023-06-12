@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#box{
+    width: 345px;
+    height: 75px;
+    background-color: lightblue;
+    border: 12px solid black;
+    padding: 0 20px 0 20px;
+}
+
+
+
+
+/* ---This is content box---
+Total width: 345 + (2 * 20) + (2 * 12) =  409px;
+Total height: 75 + (2 * 0) + (2 * 12) = 99px;
+Content box width: 345px
+Content box height: 75px
+
+---This is for border-box---
+Total width: 345px;
+Total height: 75px;
+Content box width: 345 - (2 * 20) - (2 * 12) = 281px;
+Content box height: 75 - (2 * 0) - (2 * 12) = 51px; */

@@ -1,0 +1,67 @@
+body {
+    background-color: bisque;
+}
+
+.login-container {
+width: 500px;
+height: 500px;
+background-color: rosybrown;
+border-radius: 12px; 
+margin: 0 auto;
+font-family: sans-serif;
+}
+
+h3{
+text-align: center;
+padding-top: 25px;
+padding-bottom: 15px;
+}
+
+form {
+width: 340px;
+margin: 0 auto;
+}
+ 
+label{
+    font-size: 16px;
+}
+
+
+input {
+width: 200px;
+height: 30px;
+margin-bottom: 10px;
+outline: none;
+} 
+
+h4 {
+padding-top: 5px;
+padding-bottom: 2px;
+}
+
+.checkbox {
+width: 12px;
+height: 12px;
+margin: 0 5px 0 5px;
+}
+ 
+.submit-btn {
+    width: 180px;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    border: transparent;
+    
+}
+
+.submit-btn:hover {
+    font-size: 18px;
+    background-color: blue;
+    color: white
+} 
+
+a {
+font-size: 16px;
+color: yellow;
+}
