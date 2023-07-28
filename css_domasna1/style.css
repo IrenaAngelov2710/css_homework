@@ -1,9 +1,9 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 
-#box{
+#box {
     width: 345px;
     height: 75px;
     background-color: lightblue;
